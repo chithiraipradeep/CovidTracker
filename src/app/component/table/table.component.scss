@@ -1,0 +1,54 @@
+table {
+  width: 100%;
+
+  th {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    // background-color: gray;
+  }
+  td {
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    width: 25%;
+  }
+}
+
+.th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+  padding-left: 0px;
+}
+
+.mat-cell {
+  border-right: 1px solid #e0e0e0;
+  padding: 0px;
+}
+
+th {
+  border-right: 1px solid #e0e0e0;
+  text-transform: capitalize;
+}
+
+.default-select {
+  position: relative;
+  background-color: #edf2f7;
+  text-align: left;
+}
+
+.selected {
+  position: relative;
+  background-color: #108886;
+  color: #fff;
+  text-align: left;
+}
+
+.selected:hover {
+  background-color: #108886;
+}
+
+
